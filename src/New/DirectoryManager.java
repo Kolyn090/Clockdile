@@ -27,4 +27,10 @@ public class DirectoryManager {
         put("Closed", "lib/Images/ResetButton-Closed.png");
         put("Open", "lib/Images/ResetButton-Open.png");
     }};
+
+    public static final String leftArrow = "lib/Images/LeftButton.png";
+    public static final String rightArrow = "lib/Images/RightButton.png";
+
+    public static final String digitalClock = "New/Fonts/digital-7 (mono).ttf";
+    public static final String avocado = "New/Fonts/avocado.ttf";
 }

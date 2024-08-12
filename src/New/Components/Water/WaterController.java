@@ -6,7 +6,7 @@ public class WaterController {
 
     public WaterController() {
         view = new WaterView();
-        model = new WaterModel();
+        model = new WaterModel(8);
     }
 
     public void increaseAmount() {
