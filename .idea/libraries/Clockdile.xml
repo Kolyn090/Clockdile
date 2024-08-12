@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Clockdile">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Clockdile_jar/Clockdile.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
