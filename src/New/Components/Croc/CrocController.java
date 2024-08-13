@@ -1,12 +1,12 @@
 package New.Components.Croc;
 
+import javax.swing.*;
+
 public class CrocController {
     private final CrocView view;
-    private CrocModel model;
 
     public CrocController(int width, int height) {
         view = new CrocView(width, height);
-        model = new CrocModel();
     }
 
     public CrocView getView() {

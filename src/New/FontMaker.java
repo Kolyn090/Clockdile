@@ -4,7 +4,7 @@ import java.awt.*;
 import java.io.IOException;
 import java.util.Objects;
 
-public final class FontMaker {
+public class FontMaker {
     public static Font makeFont(int fontSize, String fontDirectory) {
         Font temp = null;
         try {

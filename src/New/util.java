@@ -1,5 +1,6 @@
 package New;
 
+import javax.swing.*;
 import java.util.function.Function;
 
 public class util {
@@ -8,5 +9,15 @@ public class util {
             resultArray[i] = mapper.apply(array[i]);
         }
         return resultArray;
+    }
+
+    public static void Enable(JComponent component) {
+        component.setEnabled(true);
+        component.setVisible(true);
+    }
+
+    public static void Disable(JComponent component) {
+        component.setEnabled(false);
+        component.setVisible(false);
     }
 }
