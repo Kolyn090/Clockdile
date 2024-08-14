@@ -1,8 +1,5 @@
 package New.Components;
 
-import New.Components.Controller;
-import New.Components.Model;
-
 import java.util.ArrayList;
 
 public class IntController implements Controller<Integer> {

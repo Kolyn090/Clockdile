@@ -6,6 +6,7 @@ import New.Components.ComponentView;
 import New.Components.IntController;
 import New.DirectoryManager;
 import New.FontMaker;
+import New.SaveSingleton;
 
 import javax.swing.*;
 import java.awt.*;
@@ -86,6 +87,7 @@ public class IntervalView implements ComponentView<Integer, JLayeredPane> {
     @Override
     public void update(Integer data) {
         numberText.setText(getPrettyIntervalNumberText(data));
+        SaveSingleton.instance().writeInterval(data);
     }
 
     @Override

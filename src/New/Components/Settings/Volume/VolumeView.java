@@ -5,6 +5,7 @@ import New.Components.ComponentView;
 import New.Components.IntController;
 import New.DirectoryManager;
 import New.FontMaker;
+import New.SaveSingleton;
 
 import javax.swing.*;
 import javax.swing.plaf.basic.BasicSliderUI;
@@ -15,6 +16,8 @@ import java.util.ArrayList;
 
 public class VolumeView implements ComponentView<Integer, JPanel> {
     private final JPanel body;
+
+    private final JSlider slider;
     private final ArrayList<IntController> controllers;
     private final BoundsManager boundsManager;
 
@@ -36,7 +39,7 @@ public class VolumeView implements ComponentView<Integer, JPanel> {
         );
         body.add(title);
 
-        JSlider slider = new JSlider();
+        slider = new JSlider();
         slider.setOpaque(false);
         slider.setForeground(new Color(252, 241, 131));
         slider.setBackground(new Color(184, 147, 89));
@@ -50,6 +53,7 @@ public class VolumeView implements ComponentView<Integer, JPanel> {
             @Override
             public void mouseReleased(MouseEvent e) {
                 super.mouseReleased(e);
+                SaveSingleton.instance().writeVolume(slider.getValue());
             }
         });
         body.add(slider);
@@ -71,7 +75,7 @@ public class VolumeView implements ComponentView<Integer, JPanel> {
 
     @Override
     public void update(Integer data) {
-
+        slider.setValue(data);
     }
 
     @Override

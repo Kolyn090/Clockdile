@@ -33,4 +33,6 @@ public class DirectoryManager {
 
     public static final String digitalClock = "New/Fonts/digital-7 (mono).ttf";
     public static final String avocado = "New/Fonts/avocado.ttf";
+
+    public static final String saveFile = "lib/AppSave.txt";
 }

@@ -5,6 +5,7 @@ import New.Components.BoundsManager;
 import New.Components.ComponentView;
 import New.Components.IntController;
 import New.DirectoryManager;
+import New.SaveSingleton;
 import New.util;
 
 import javax.swing.*;
@@ -64,6 +65,7 @@ public class WaterView implements ComponentView<Integer, JLayeredPane> {
     @Override
     public void update(Integer data) {
         waterIconLabel.setIcon(icons[data]);
+        SaveSingleton.instance().writeWaterAmount(data);
     }
 
     @Override
