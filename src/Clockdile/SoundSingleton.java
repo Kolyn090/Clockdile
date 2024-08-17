@@ -19,7 +19,7 @@ public class SoundSingleton {
     }
 
     private void setFile() {
-        String soundFile = "lib/star-trek-the-next-generation-theme.wav";
+        String soundFile = "lib/crocodile-sound.wav";
         File file = new File(soundFile);
         AudioInputStream stream = null;
         try {
