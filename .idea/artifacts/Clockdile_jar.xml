@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Clockdile:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Clockdile_jar</output-path>
+    <root id="archive" name="Clockdile.jar">
+      <element id="module-output" name="Clockdile" />
+    </root>
+  </artifact>
+</component>
