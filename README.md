@@ -27,3 +27,4 @@ on WinOS and MacOS.
 * Art reword by Jianxin (Kolyn) Lin
 * [avocado font](https://www.dafont.com/avocado-2.font)
 * [digital-7 font](http://www.styleseven.com)
+* Required assets to convert jar to app: https://www.youtube.com/watch?v=ZI3U4I2nK2s
