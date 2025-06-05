@@ -3,6 +3,7 @@ package Clockdile;
 import javax.sound.sampled.*;
 import java.io.File;
 import java.io.IOException;
+import Clockdile.DirectoryManager;
 
 public class SoundSingleton {
     private Clip clip;
@@ -19,7 +20,7 @@ public class SoundSingleton {
     }
 
     private void setFile() {
-        String soundFile = "lib/crocodile-sound.wav";
+        String soundFile = DirectoryManager.soundFile;
         File file = new File(soundFile);
         AudioInputStream stream = null;
         try {
