@@ -17,9 +17,7 @@ In terminal, run the following:
 git clone https://github.com/Kolyn090/Clockdile.git
 ```
 ### Application
-Download folder `Clockdile.app` and double click it
-to open (need to trust the project if asked). Works
-on WinOS and MacOS.
+Check out the releases [here](https://github.com/Kolyn090/Clockdile/releases/tag/clockdile).
 
 # Credits
 * [crocodile sound effect](https://www.zapsplat.com/sound-effect-category/alligators-and-crocodiles/)
